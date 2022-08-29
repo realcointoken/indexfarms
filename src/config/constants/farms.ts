@@ -289,22 +289,6 @@ const farms: FarmConfig[] = [
   },
   {
     risk: 3,
-    isTokenOnly: true,
-    lpSymbol: 'LINA',
-    lpAddresses: {
-      97: '',
-      56: '0xeb325a8ea1c5abf40c7ceaf645596c1f943d0948', // LINA-BUSD LP
-    },
-    tokenSymbol: 'LINA',
-    tokenAddresses: {
-      97: '',
-      56: '0x762539b45a1dcce3d36d080f74d1aed37844b878',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    risk: 3,
     lpSymbol: '$IDXS-USDT LP',
     lpAddresses: {
       97: '',
