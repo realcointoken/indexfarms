@@ -176,38 +176,6 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    risk: 1,
-    isTokenOnly: true,
-    lpSymbol: 'EGG',
-    lpAddresses: {
-      97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // EGG-BUSD LP (BUSD-BUSD will ignore)
-    },
-    tokenSymbol: 'EGG',
-    tokenAddresses: {
-      97: '',
-      56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    risk: 3,
-    isTokenOnly: true,
-    lpSymbol: 'VIKING',
-    lpAddresses: {
-      97: '',
-      56: '0x9b989a7b8963f4b08ec094710e2966fb3c7f6c43', // VIKING-BUSD LP
-    },
-    tokenSymbol: 'VIKING',
-    tokenAddresses: {
-      97: '',
-      56: '0x896ede222d3f7f3414e136a2791bdb08aaa25ce0',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'DOT',
@@ -219,54 +187,6 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       97: '',
       56: '0x7083609fce4d1d8dc0c979aab8c869ea2c873402',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    risk: 3,
-    isTokenOnly: true,
-    lpSymbol: 'ALPHA',
-    lpAddresses: {
-      97: '',
-      56: '0x5ba0d670ea3db79067ee6861b960f06d53712e18', // ALPHA-BUSD LP
-    },
-    tokenSymbol: 'ALPHA',
-    tokenAddresses: {
-      97: '',
-      56: '0xa1faa113cbe53436df28ff0aee54275c13b40975',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    risk: 3,
-    isTokenOnly: true,
-    lpSymbol: 'STAX',
-    lpAddresses: {
-      97: '',
-      56: '0x13abfa7b781bee80ca7fae7ec71045488d876a8d', // STAX-BUSD LP
-    },
-    tokenSymbol: 'STAX',
-    tokenAddresses: {
-      97: '',
-      56: '0x0da6ed8b13214ff28e9ca979dd37439e8a88f6c4',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    risk: 3,
-    isTokenOnly: true,
-    lpSymbol: 'LINK',
-    lpAddresses: {
-      97: '',
-      56: '0xe54a9d8412287cfc675cae18a0011483ef975f05', // LINK-BUSD LP
-    },
-    tokenSymbol: 'LINK',
-    tokenAddresses: {
-      97: '',
-      56: '0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
