@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract TacoToken",
-        "name": "_taco",
+        "internalType": "contract InDexSale",
+        "name": "_idxs",
         "type": "address"
       },
       {
@@ -243,10 +243,10 @@
   },
   {
     "inputs": [],
-    "name": "taco",
+    "name": "InDexSale",
     "outputs": [
       {
-        "internalType": "contract TacoToken",
+        "internalType": "contract InDexSale",
         "name": "",
         "type": "address"
       }
