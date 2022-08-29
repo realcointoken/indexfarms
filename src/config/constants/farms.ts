@@ -97,21 +97,6 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    risk: 3,
-    lpSymbol: 'DOT-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0xbcd62661a6b1ded703585d3af7d7649ef4dcdb5c',
-    },
-    tokenSymbol: 'DOT',
-    tokenAddresses: {
-      97: '',
-      56: '0x7083609fce4d1d8dc0c979aab8c869ea2c873402',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },
-  {
     risk: 4,
     lpSymbol: 'CAKE-BUSD LP',
     lpAddresses: {
@@ -171,38 +156,6 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       97: '',
       56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    risk: 3,
-    isTokenOnly: true,
-    lpSymbol: 'DOT',
-    lpAddresses: {
-      97: '',
-      56: '0x54c1ec2f543966953f2f7564692606ea7d5a184e', // DOT-BUSD LP
-    },
-    tokenSymbol: 'DOT',
-    tokenAddresses: {
-      97: '',
-      56: '0x7083609fce4d1d8dc0c979aab8c869ea2c873402',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    risk: 4,
-    isTokenOnly: true,
-    lpSymbol: 'CAKE',
-    lpAddresses: {
-      97: '',
-      56: '0x0ed8e0a2d99643e1e65cca22ed4424090b8b7458', // CAKE-BUSD LP
-    },
-    tokenSymbol: 'CAKE',
-    tokenAddresses: {
-      97: '',
-      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
