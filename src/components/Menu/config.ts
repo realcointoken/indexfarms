@@ -77,15 +77,15 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Github',
-        href: 'https://github.com/indexsale/',
+        href: 'https://github.com/In-DexSale/In-Dex-Sale.git',
       },
       {
         label: 'Docs',
-        href: 'https://idsdefi.gitbook.io/',
+        href: 'https://in-dexsale.gitbook.io/in-dex-sale/',
       },
       {
         label: 'Blog',
-        href: 'https://medium.com/',
+        href: 'https://medium.com/@in-dexsale',
       },
     ],
   },
