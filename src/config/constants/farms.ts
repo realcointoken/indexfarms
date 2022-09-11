@@ -13,7 +13,7 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x89C2d726981eBa2EA168C7B19F54cAe905DA89cD',
     },
-    tokenSymbol: '$TACO',
+    tokenSymbol: 'IDXS',
     tokenAddresses: {
       97: '',
       56: '0x89C2d726981eBa2EA168C7B19F54cAe905DA89cD',
@@ -28,7 +28,7 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x89C2d726981eBa2EA168C7B19F54cAe905DA89cD',
     },
-    tokenSymbol: '$TACO',
+    tokenSymbol: '$IDXS',
     tokenAddresses: {
       97: '',
       56: TACO_MAINNET,
