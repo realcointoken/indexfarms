@@ -3,7 +3,7 @@ import { FarmConfig, QuoteToken } from './types'
 
 const TACO_BUSD_LP_MAINNET = `0xC435EAe9b9283c6dB65186E84422229c89298E29`
 const TACO_BNB_LP_MAINNET = `0x5EFCf22021D0F4Ac2147C2879376500B5f94772E`
-const TACO_MAINNET = `0x89C2d726981eBa2EA168C7B19F54cAe905DA89cD`
+const TACO_MAINNET = `0xcab9575f4bf9a846a58fcbe1a96af3e4bd770366`
 
 const farms: FarmConfig[] = [
   {
@@ -11,12 +11,12 @@ const farms: FarmConfig[] = [
     lpSymbol: '$IDXS-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x89C2d726981eBa2EA168C7B19F54cAe905DA89cD',
+      56: '0xcab9575f4bf9a846a58fcbe1a96af3e4bd770366',
     },
     tokenSymbol: 'IDXS',
     tokenAddresses: {
       97: '',
-      56: '0x89C2d726981eBa2EA168C7B19F54cAe905DA89cD',
+      56: '0xcab9575f4bf9a846a58fcbe1a96af3e4bd770366',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -26,7 +26,7 @@ const farms: FarmConfig[] = [
     lpSymbol: '$IDXS-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x89C2d726981eBa2EA168C7B19F54cAe905DA89cD',
+      56: '0xcab9575f4bf9a846a58fcbe1a96af3e4bd770366',
     },
     tokenSymbol: '$IDXS',
     tokenAddresses: {
@@ -56,7 +56,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'USDT-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0xc15fa3e22c912a276550f3e5fe3b0deb87b55acd',
+      56: '0xcab9575f4bf9a846a58fcbe1a96af3e4bd770366',
     },
     tokenSymbol: 'USDT',
     tokenAddresses: {
@@ -133,7 +133,7 @@ const farms: FarmConfig[] = [
     lpSymbol: '$IDXS-USDT LP',
     lpAddresses: {
       97: '',
-      56: '0x89C2d726981eBa2EA168C7B19F54cAe905DA89cD', // LINA-BUSD LP
+      56: '0xcab9575f4bf9a846a58fcbe1a96af3e4bd770366', // LINA-BUSD LP
     },
     tokenSymbol: 'TACO',
     tokenAddresses: {
@@ -148,7 +148,7 @@ const farms: FarmConfig[] = [
     lpSymbol: '$IDXS-USDC LP',
     lpAddresses: {
       97: '',
-      56: '0x89C2d726981eBa2EA168C7B19F54cAe905DA89cD', // LINA-BUSD LP
+      56: '0xcab9575f4bf9a846a58fcbe1a96af3e4bd770366', // LINA-BUSD LP
     },
     tokenSymbol: 'TACO',
     tokenAddresses: {
