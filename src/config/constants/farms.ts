@@ -8,12 +8,12 @@ const TACO_MAINNET = `0xe89d402e8588b73dd1676a49f86f6c749f25442b`
 const farms: FarmConfig[] = [
   {
     risk: 5,
-    lpSymbol: '$IDXS-BUSD LP',
+    lpSymbol: 'BULLCHAIN-BUSD',
     lpAddresses: {
       97: '',
       56: '0xe89d402e8588b73dd1676a49f86f6c749f25442b',
     },
-    tokenSymbol: 'IDXS',
+    tokenSymbol: 'BULLCHAIN',
     tokenAddresses: {
       97: '',
       56: '0xe89d402e8588b73dd1676a49f86f6c749f25442b',
@@ -23,12 +23,12 @@ const farms: FarmConfig[] = [
   },
   {
     risk: 5,
-    lpSymbol: '$IDXS-BNB LP',
+    lpSymbol: 'BULLCHAIN-BNB',
     lpAddresses: {
       97: '',
       56: '0xe89d402e8588b73dd1676a49f86f6c749f25442b',
     },
-    tokenSymbol: '$IDXS',
+    tokenSymbol: 'BULLCHAIN',
     tokenAddresses: {
       97: '',
       56: TACO_MAINNET,
@@ -38,7 +38,7 @@ const farms: FarmConfig[] = [
   },
   {
     risk: 3,
-    lpSymbol: 'BNB-BUSD LP',
+    lpSymbol: 'BNB-BUSD',
     lpAddresses: {
       97: '',
       56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
@@ -53,7 +53,7 @@ const farms: FarmConfig[] = [
   },
   {
     risk: 1,
-    lpSymbol: 'USDT-BUSD LP',
+    lpSymbol: 'USDT-BUSD',
     lpAddresses: {
       97: '',
       56: '0xe89d402e8588b73dd1676a49f86f6c749f25442b',
@@ -68,7 +68,7 @@ const farms: FarmConfig[] = [
   },
   {
     risk: 2,
-    lpSymbol: 'ETH-BNB LP',
+    lpSymbol: 'ETH-BNB',
     lpAddresses: {
       97: '',
       56: '0x70d8929d04b60af4fb9b58713ebcf18765ade422',
@@ -83,7 +83,7 @@ const farms: FarmConfig[] = [
   },
   {
     risk: 1,
-    lpSymbol: 'USDC-BUSD LP',
+    lpSymbol: 'USDC-BUSD',
     lpAddresses: {
       97: '',
       56: '0x680dd100e4b394bda26a59dd5c119a391e747d18',
@@ -99,12 +99,12 @@ const farms: FarmConfig[] = [
   {
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: '$IDXS',
+    lpSymbol: 'BULLCHAIN',
     lpAddresses: {
       97: '',
       56: TACO_BUSD_LP_MAINNET, // $IDXS-BUSD LP
     },
-    tokenSymbol: '$IDXS',
+    tokenSymbol: 'BULLCHAIN',
     tokenAddresses: {
       97: '',
       56: TACO_MAINNET,
@@ -130,7 +130,7 @@ const farms: FarmConfig[] = [
   },
   {
     risk: 3,
-    lpSymbol: '$IDXS-USDT LP',
+    lpSymbol: 'BULLCHAIN-USDT',
     lpAddresses: {
       97: '',
       56: '0xe89d402e8588b73dd1676a49f86f6c749f25442b', // LINA-BUSD LP
@@ -145,7 +145,7 @@ const farms: FarmConfig[] = [
   },
   {
     risk: 3,
-    lpSymbol: '$IDXS-USDC LP',
+    lpSymbol: 'BULLCHAIN-USDC',
     lpAddresses: {
       97: '',
       56: '0xe89d402e8588b73dd1676a49f86f6c749f25442b', // LINA-BUSD LP
