@@ -77,22 +77,22 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Github',
-        href: 'https://github.com/In-DexSale/In-Dex-Sale.git',
+        href: 'https://github.com/bullchain/',
       },
       {
         label: 'Docs',
-        href: 'https://in-dexsale.gitbook.io/in-dex-sale/',
+        href: 'https://bullchain.gitbook.io/bullchain/',
       },
       {
         label: 'Blog',
-        href: 'https://medium.com/@in-dexsale',
+        href: 'https://medium.com/@bullchain',
       },
     ],
   },
   {
     label: 'Website',
     icon: 'AuditIcon',
-    href: 'https://indexsale.finance/',
+    href: 'https://bullchain.finance/',
   },
 ]
 
