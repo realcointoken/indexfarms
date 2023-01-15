@@ -59,11 +59,11 @@ const config: MenuEntry[] = [
       },
       {
         label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/indexsale',
+        href: 'https://coinmarketcap.com/currencies/',
       },
       {
         label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/', // CriptoFan-busd
+        href: 'https://app.astrotools.io/pancake-pair-explorer/', // bullchain-busd
       },
     ],
   },
