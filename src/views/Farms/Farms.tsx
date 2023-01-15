@@ -114,7 +114,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         </FlexLayout>
       </div>
       <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'flex-end' }}>
-        <Image src="" alt="" width={200} height={58} responsive />
+        <Image src="/images/taco/8.png" alt="illustration" width={200} height={58} responsive />
       </div>
     </Page>
   )
