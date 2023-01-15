@@ -94,7 +94,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <div style={style}>
         <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
           {tokenMode
-            ? TranslateString(10002, 'Stake tokens to earn In-Dex Sale')
+            ? TranslateString(10002, 'Stake tokens to earn BullChain')
             : TranslateString(320, '')}
         </Heading>
         <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
