@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://swap.indexsale.finance/#/swap',
+        href: 'https://indexswapnew-lunafarm.vercel.app/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://swap.indexsale.finance/#/pool',
+        href: 'https://indexswapnew-lunafarm.vercel.app/#/pool',
       },
     ],
   },
@@ -73,7 +73,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Website',
-        href: 'https://indexsale.finance',
+        href: 'https://bullchain.finance/',
       },
       {
         label: 'Github',
