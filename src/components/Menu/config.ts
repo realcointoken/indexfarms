@@ -55,7 +55,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/indexsale',
+        href: 'https://www.coingecko.com/en/coins/',
       },
       {
         label: 'CoinMarketCap',
