@@ -20,6 +20,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
+  {
     risk: 5,
     isTokenOnly: true,
     lpSymbol: 'BullChain',
