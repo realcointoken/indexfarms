@@ -8,6 +8,20 @@ const TACO_MAINNET = `0xe89d402e8588b73dd1676a49f86f6c749f25442b`
 const farms: FarmConfig[] = [
   {
     risk: 5,
+    lpSymbol: 'BULLCHAIN-BUSD',
+    lpAddresses: {
+      97: '',
+      56: '0xe89d402e8588b73dd1676a49f86f6c749f25442b',
+    },
+    tokenSymbol: 'BULLCHAIN',
+    tokenAddresses: {
+      97: '',
+      56: '0xe89d402e8588b73dd1676a49f86f6c749f25442b',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+    risk: 5,
     lpSymbol: 'BULLCHAIN-BNB',
     lpAddresses: {
       97: '',
