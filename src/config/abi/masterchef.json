@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract InDexSale",
-        "name": "_idxs",
+        "internalType": "contract BullChainAI",
+        "name": "_bcai",
         "type": "address"
       },
       {
@@ -243,10 +243,10 @@
   },
   {
     "inputs": [],
-    "name": "InDexSale",
+    "name": "BullChainAI",
     "outputs": [
       {
-        "internalType": "contract InDexSale",
+        "internalType": "contract BullChainAI",
         "name": "",
         "type": "address"
       }
