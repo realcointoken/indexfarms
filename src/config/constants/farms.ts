@@ -8,7 +8,7 @@ const TACO_MAINNET = `0x841E83120462945F32a6687AD28a5E7Bee023169`
 const farms: FarmConfig[] = [
   {
     risk: 5,
-    lpSymbol: 'BullChainAI-BUSD LP',
+    lpSymbol: 'BullChain-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x841E83120462945F32a6687AD28a5E7Bee023169',
@@ -23,7 +23,7 @@ const farms: FarmConfig[] = [
   },
   {
     risk: 5,
-    lpSymbol: 'BullChainAI-BNB LP',
+    lpSymbol: 'BullChain-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x841E83120462945F32a6687AD28a5E7Bee023169',
@@ -42,45 +42,15 @@ const farms: FarmConfig[] = [
     lpSymbol: '$CFT',
     lpAddresses: {
       97: '',
-      56: TACO_BUSD_LP_MAINNET, // BullChainAI-BUSD LP
+      56: TACO_BUSD_LP_MAINNET, // BullChain-BUSD LP
     },
-    tokenSymbol: 'BullChainAI',
+    tokenSymbol: 'BullChain',
     tokenAddresses: {
       97: '',
       56: TACO_MAINNET,
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
-  },
-  {
-    risk: 3,
-    lpSymbol: 'BullChain-USDT LP',
-    lpAddresses: {
-      97: '',
-      56: '0x841E83120462945F32a6687AD28a5E7Bee023169', // LINA-BUSD LP
-    },
-    tokenSymbol: 'TACO',
-    tokenAddresses: {
-      97: '',
-      56: TACO_MAINNET,
-    },
-    quoteTokenSymbol: QuoteToken.USDT,
-    quoteTokenAdresses: contracts.usdt,
-  },
-  {
-    risk: 3,
-    lpSymbol: 'BullChain-USDC LP',
-    lpAddresses: {
-      97: '',
-      56: '0x841E83120462945F32a6687AD28a5E7Bee023169', // LINA-BUSD LP
-    },
-    tokenSymbol: 'TACO',
-    tokenAddresses: {
-      97: '',
-      56: TACO_MAINNET,
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
   },
 ].map((farm, index) => ({ ...farm, pid: index }))
 
