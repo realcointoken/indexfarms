@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://indexswapnew-lunafarm.vercel.app/#/swap',
+        href: 'https://dex.bullchainai.com/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://indexswapnew-lunafarm.vercel.app/#/pool',
+        href: 'https://dex.bullchainai.com/#/pool',
       },
     ],
   },
@@ -73,11 +73,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Website',
-        href: 'https://bullchain.finance/',
+        href: 'https://bullchainai.com/',
       },
       {
         label: 'Github',
-        href: 'https://github.com/bullchain/',
+        href: 'https://github.com/',
       },
       {
         label: 'Docs',
@@ -92,7 +92,7 @@ const config: MenuEntry[] = [
   {
     label: 'Website',
     icon: 'AuditIcon',
-    href: 'https://bullchain.finance/',
+    href: 'https://bullchainai.com',
   },
 ]
 
