@@ -23,6 +23,21 @@ const farms: FarmConfig[] = [
   },
   {
     risk: 5,
+    lpSymbol: 'BullChain-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x841E83120462945F32a6687AD28a5E7Bee023169',
+    },
+    tokenSymbol: '$TACO',
+    tokenAddresses: {
+      97: '',
+      56: TACO_MAINNET,
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    risk: 5,
     isTokenOnly: true,
     lpSymbol: 'BullChain',
     lpAddresses: {
