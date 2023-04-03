@@ -1,6 +1,6 @@
 export default {
   cake: {
-    56: '0x62B427DaA6DCe1bea02F74AE09f6b7e82Bd860e5', // BullChain
+    56: '0xd5d111b9e1e3daf2a8c16cc005988e93c437e242', // BullChain
     97: '',
   },
   masterChef: {
