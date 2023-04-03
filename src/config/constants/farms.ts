@@ -3,7 +3,7 @@ import { FarmConfig, QuoteToken } from './types'
 
 const TACO_BUSD_LP_MAINNET = `0x3BB3B98c0FABE30166E6B7D62aEef393249871E4`
 const TACO_BNB_LP_MAINNET = `0x5590d45592C846DD820D360dd5Ba6b2610cDeeFB`
-const TACO_MAINNET = `0x62B427DaA6DCe1bea02F74AE09f6b7e82Bd860e5`
+const TACO_MAINNET = `0xd5d111b9e1e3daf2a8c16cc005988e93c437e242`
 
 const farms: FarmConfig[] = [
   {
@@ -11,12 +11,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BullChain-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x62B427DaA6DCe1bea02F74AE09f6b7e82Bd860e5',
+      56: '0x3e65443Ee737Ca8e166FeB05428d6D9795B5Dff4',
     },
     tokenSymbol: '$TACO',
     tokenAddresses: {
       97: '',
-      56: '0x62B427DaA6DCe1bea02F74AE09f6b7e82Bd860e5',
+      56: '0xd5d111b9e1e3daf2a8c16cc005988e93c437e242',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -26,7 +26,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BullChain-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x62B427DaA6DCe1bea02F74AE09f6b7e82Bd860e5',
+      56: '0x3e65443Ee737Ca8e166FeB05428d6D9795B5Dff4',
     },
     tokenSymbol: '$TACO',
     tokenAddresses: {
@@ -42,7 +42,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BullChain',
     lpAddresses: {
       97: '',
-      56: TACO_BUSD_LP_MAINNET, // BullChain-BUSD LP
+      56: TACO_BNB_LP_MAINNET, // BullChain-BNB LP
     },
     tokenSymbol: 'BullChain',
     tokenAddresses: {
